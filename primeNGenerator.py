@@ -23,12 +23,34 @@ def genPrimoMayor(n, s):
 
 @compTime
 def getPrimes(s):
-    for i in range(10):
-        print(genPrimoBits(16, s))
-    for i in range(10):
-        print(genPrimoBits(32, s))
-    for i in range(10):
-        print(genPrimoBits(64, s))
+    list_16=[]
+    list_32=[]
+    list_64=[]
+    print("Primos de 16 bits: ")
+    while len(list_16)!=10:
+        a=genPrimoBits(16,s)
+        if (a not in list_16):
+            list_16.append(a)
+        else:
+            i=i-1
+    print(list_16)
+    print("Primos de 32 bits: ")
+    while len(list_32)!=10:
+        a=genPrimoBits(32,s)
+        if (a not in list_32):
+            list_32.append(a)
+        else:
+            i=i-1
+    print(list_32)
+
+    print("Primos de 64 bits: ")
+    while len(list_64)!=10:
+        a=genPrimoBits(64,s)
+        if (a not in list_64):
+            list_64.append(a)
+        else:
+            i=i-1
+    print(list_64)
 
 if __name__ == "__main__":
-    getPrimes(2)
+    getPrimes(326)
