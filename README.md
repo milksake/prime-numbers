@@ -11,6 +11,9 @@ Integrantes:
       python3 primeNGenerator.py
 ### Ejecutar MillerRabin.py
       python3 millerRabin.py
+
+## Ejecutar en Replit
+[![Run on Repl.it](https://repl.it/badge/github/milksake/prime-numbers)](https://repl.it/github/milksake/prime-numbers)
       
 ## [Miller Rabin](millerRabin.py)
 Se llama a la función getPrimeNumbers(a, b, s) siendo "a" el número en el que inicia a buscar, "b" hasta el número que se llegará y "s" el número de veces que se probará si un número es primo en una base aleatoria. 
