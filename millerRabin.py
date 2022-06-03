@@ -21,7 +21,7 @@ def getPrimeNumbers(a, b, s):
 if __name__ == "__main__":
     #print(len(getPrimeNumbers(100, 100000, 50))) 
     #--> Resulta 9567
-    print(len(getPrimeNumbers(100, 100000, 4)))
+    print(getPrimeNumbers(100, 100000, 4))
     #--> Resulta 9567
     #print(len(getPrimeNumbers(100, 100000, 3))) 
     #--> Resulta 9567+K, el resultado cambia
