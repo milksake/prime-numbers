@@ -5,6 +5,13 @@ Integrantes:
 - Jorge Núñez Paucar
 - Camila Orihuela Flores
 
+## Clonar
+      git clone https://github.com/milksake/prime-numbers.git
+### Ejecutar primeNgenerator.py
+      python3 primeNGenerator.py
+### Ejecutar MillerRabin.py
+      python3 millerRabin.py
+      
 ## [Miller Rabin](millerRabin.py)
 Se llama a la función getPrimeNumbers(a, b, s) siendo "a" el número en el que inicia a buscar, "b" hasta el número que se llegará y "s" el número de veces que se probará si un número es primo en una base aleatoria. 
 Dentro se llama a la función MillerRabin(i, s) que imprime un número en caso sea primo.
