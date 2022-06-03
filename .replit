@@ -1,0 +1,5 @@
+language = "python3"
+run = """
+python3 millerRabin.py
+python3 primeNGenerator.py
+"""
